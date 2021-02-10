@@ -4,11 +4,12 @@ import MyPosts from "./MyPosts/MyPosts";
 
 export default function Profile() {
     return (
-        <div className={classes.content}>
+        <div>
             <div>
-                <img src="/images/backgroundImageContent.jpg" alt=""/></div>
+                <img src="/images/backgroundImageContent.jpg" alt=""/>
+            </div>
             <div>
-                ava + desc
+                ava + description
             </div>
             <MyPosts/>
         </div>
